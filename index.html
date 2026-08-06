@@ -3,7 +3,7 @@
 <html class="dark" lang="it"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Toni Fitness — Palestra a Ceglie Messapica</title>
+<title>Tonifit — Palestra a Ceglie Messapica</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Space+Grotesk:wght@300;500;700;900&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -104,17 +104,30 @@
 <body class="bg-background selection:bg-primary-dim selection:text-white">
 <!-- TopNavBar -->
 <nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-black/80 backdrop-blur-md border-b-0 shadow-[0_40px_60px_-15px_rgba(0,0,0,0.3)]">
-<div class="text-3xl font-black italic tracking-tighter text-white font-headline">TONI FITNESS</div>
+<div class="text-3xl font-black italic tracking-tighter text-white font-headline">TONIFIT</div>
 <div class="hidden md:flex items-center gap-10 font-headline uppercase tracking-tighter font-bold">
 <a class="text-red-600 border-b-4 border-red-600 pb-1" href="#servizi">SERVIZI</a>
 <a class="text-zinc-400 hover:text-white transition-colors" href="#corsi">CORSI</a>
 <a class="text-zinc-400 hover:text-white transition-colors" href="#bio">BIO</a>
 <a class="text-zinc-400 hover:text-white transition-colors" href="#contatto">CONTATTO</a>
 </div>
-<button class="bg-primary-dim text-on-primary-fixed px-6 py-2 font-headline font-bold uppercase tracking-tighter transition-all duration-100 hover:bg-red-600 active:scale-95">
+<div class="flex items-center gap-4">
+<a class="hidden sm:block bg-primary-dim text-on-primary-fixed px-6 py-2 font-headline font-bold uppercase tracking-tighter transition-all duration-100 hover:bg-red-600 active:scale-95" href="#contatto">
             INIZIA ORA
-        </button>
+        </a>
+<button aria-label="Menu" class="md:hidden text-white flex items-center" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+<span class="material-symbols-outlined text-4xl">menu</span>
+</button>
+</div>
 </nav>
+<!-- Mobile Menu -->
+<div class="hidden md:hidden fixed top-[68px] left-0 w-full z-40 bg-black/95 backdrop-blur-md flex flex-col font-headline uppercase font-bold tracking-tighter border-t border-zinc-900" id="mobile-menu">
+<a class="px-6 py-5 text-white hover:text-red-600" href="#servizi" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Servizi</a>
+<a class="px-6 py-5 text-white hover:text-red-600" href="#corsi" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Corsi</a>
+<a class="px-6 py-5 text-white hover:text-red-600" href="#bio" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Bio</a>
+<a class="px-6 py-5 text-white hover:text-red-600" href="#contatto" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Contatto</a>
+<a class="px-6 py-5 text-primary-dim" href="#contatto" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Inizia Ora</a>
+</div>
 <main>
 <!-- Hero Section -->
 <section class="relative min-h-screen flex items-end pt-32 pb-20 px-6 overflow-hidden">
@@ -321,7 +334,7 @@
                         ANTONIO <br/>URSO
                     </h2>
 <div class="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
-<p>Il mio obiettivo non è farti sudare, ma farti evolvere. Dopo anni di esperienza nell'allenamento e nel coaching, ho fondato Toni Fitness per portare il metodo del professionismo a chiunque sia disposto a lavorare sodo.</p>
+<p>Il mio obiettivo non è farti sudare, ma farti evolvere. Dopo anni di esperienza nell'allenamento e nel coaching, ho fondato Tonifit per portare il metodo del professionismo a chiunque sia disposto a lavorare sodo.</p>
 <p class="border-l-4 border-primary-dim pl-6 italic">"La forza non è solo un numero sul bilanciere, è la disciplina che applichi ad ogni secondo della tua vita."</p>
 </div>
 <div class="mt-12 grid grid-cols-2 gap-8">
@@ -362,7 +375,7 @@
 </div>
 <div>
 <h4 class="font-headline font-bold uppercase tracking-widest text-xs text-primary-dim">EMAIL</h4>
-<p class="font-headline font-bold text-xl uppercase">INFO@TONY-FITNESS.IT</p>
+<p class="font-headline font-bold text-xl uppercase">INFO@TONIFIT.IT</p>
 </div>
 </div>
 </div>
@@ -401,8 +414,8 @@
 <!-- Footer -->
 <footer class="w-full py-12 px-6 flex flex-col md:flex-row justify-between items-center gap-8 border-t border-zinc-900 bg-black">
 <div class="flex flex-col items-center md:items-start gap-2">
-<div class="text-lg font-black text-white font-headline">TONI FITNESS</div>
-<p class="font-['Space_Grotesk'] text-xs tracking-widest text-zinc-600">© 2026 TONI FITNESS. SENZA COMPROMESSI.</p>
+<div class="text-lg font-black text-white font-headline">TONIFIT</div>
+<p class="font-['Space_Grotesk'] text-xs tracking-widest text-zinc-600">© 2026 TONIFIT. SENZA COMPROMESSI.</p>
 </div>
 <div class="flex gap-8">
 <a class="font-['Space_Grotesk'] text-xs tracking-widest text-zinc-600 hover:text-red-500 underline decoration-2 transition-colors" href="#">PRIVACY</a>
