@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Space+Grotesk:wght@300;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-background": "#ffffff",
+                        "on-secondary-container": "#d2d0cf",
+                        "surface-container-low": "#131313",
+                        "on-secondary-fixed-variant": "#5c5b5b",
+                        "background": "#0e0e0e",
+                        "primary-dim": "#eb0000",
+                        "inverse-surface": "#f9f9f9",
+                        "on-secondary": "#525151",
+                        "on-error-container": "#ffb2b9",
+                        "on-surface-variant": "#ababab",
+                        "tertiary": "#dba2ff",
+                        "surface-tint": "#ff8e7d",
+                        "secondary-fixed": "#e5e2e1",
+                        "secondary": "#e5e2e1",
+                        "inverse-primary": "#c10100",
+                        "on-error": "#490013",
+                        "error-container": "#a70138",
+                        "primary": "#ff8e7d",
+                        "tertiary-fixed": "#d697ff",
+                        "surface-container-high": "#1f1f1f",
+                        "error": "#ff6e84",
+                        "on-primary-fixed": "#000000",
+                        "outline-variant": "#484848",
+                        "on-tertiary-fixed": "#2a0044",
+                        "on-tertiary-fixed-variant": "#56197d",
+                        "surface-container-highest": "#262626",
+                        "tertiary-dim": "#c384eb",
+                        "surface-container-lowest": "#000000",
+                        "surface": "#0e0e0e",
+                        "on-surface": "#ffffff",
+                        "on-tertiary-container": "#47026f",
+                        "primary-fixed-dim": "#ff5b47",
+                        "surface-bright": "#2c2c2c",
+                        "surface-variant": "#262626",
+                        "secondary-container": "#474746",
+                        "outline": "#757575",
+                        "primary-fixed": "#ff7763",
+                        "primary-container": "#ff7763",
+                        "tertiary-container": "#d191fa",
+                        "on-tertiary": "#53157a",
+                        "on-primary-fixed-variant": "#600000",
+                        "secondary-dim": "#d6d4d3",
+                        "on-primary": "#650000",
+                        "inverse-on-surface": "#555555",
+                        "surface-container": "#191919",
+                        "error-dim": "#d73357",
+                        "tertiary-fixed-dim": "#c889f1",
+                        "on-primary-container": "#4f0000",
+                        "on-secondary-fixed": "#403f3f",
+                        "secondary-fixed-dim": "#d6d4d3",
+                        "surface-dim": "#0e0e0e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        body {
+            background-color: #0e0e0e;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+        }
+        .brutal-shadow {
+            box-shadow: 10px 10px 0px 0px #eb0000;
+        }
+        .text-stroke {
+            -webkit-text-stroke: 1px #484848;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-background selection:bg-primary-dim selection:text-white">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-black/80 backdrop-blur-md border-b-0 shadow-[0_40px_60px_-15px_rgba(0,0,0,0.3)]">
+<div class="text-3xl font-black italic tracking-tighter text-white font-headline">VELOCITY LAB</div>
+<div class="hidden md:flex items-center gap-10 font-headline uppercase tracking-tighter font-bold">
+<a class="text-red-600 border-b-4 border-red-600 pb-1" href="#servizi">SERVIZI</a>
+<a class="text-zinc-400 hover:text-white transition-colors" href="#bio">BIO</a>
+<a class="text-zinc-400 hover:text-white transition-colors" href="#contatto">CONTATTO</a>
+</div>
+<button class="bg-primary-dim text-on-primary-fixed px-6 py-2 font-headline font-bold uppercase tracking-tighter transition-all duration-100 hover:bg-red-600 active:scale-95">
+            INIZIA ORA
+        </button>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-end pt-32 pb-20 px-6 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover grayscale opacity-40" data-alt="high-contrast black and white shot of a muscular athlete training in a dark industrial gym with dramatic red lighting accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTeIksYenT8skK4nRGgIC9MB3XNkv7-7Oua3XrNbKSHE4Dx-y-_EoyiVVL7HP62KXTDzU5u0aLXSW37ueAYmdZ8CBoYWdRXy8ImXnipYOe3g8ic5oqwa_jXAkpDkxXrIT1rXASGQpcA3L5A06wSb_aIxnYh4yAvgRkqq9mfT4q-ivrJg9GmDZNYBDfPxCIuUnjuSpbvSFVvbToFh1Y5zUw9SD1suP_TgB6_xakN3NnJ_CjaydePXqMOXZgwzNdBSOxwtHa1EaBVFa6"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-background via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+<div class="md:col-span-9">
+<h1 class="font-headline font-black text-6xl md:text-[10rem] leading-[0.85] tracking-tighter uppercase mb-6">
+                        PERFORMANCE<br/>
+<span class="text-primary-dim">SENZA</span><br/>
+                        COMPROMESSI
+                    </h1>
+<p class="font-body text-xl md:text-2xl text-on-surface-variant max-w-2xl mb-10">
+                        Oltre il fitness convenzionale. Utilizziamo la scienza e l'intensità bruta per trasformare il tuo potenziale genetico in pura potenza atletica.
+                    </p>
+</div>
+<div class="md:col-span-3 pb-4">
+<div class="flex flex-col gap-4">
+<div class="bg-surface-container-high p-6 border-l-4 border-primary-dim">
+<span class="font-headline font-bold text-4xl block">01</span>
+<span class="font-headline uppercase text-sm tracking-widest text-on-surface-variant">Metodo Scientifico</span>
+</div>
+<div class="bg-surface-container-high p-6 border-l-4 border-primary-dim">
+<span class="font-headline font-bold text-4xl block">02</span>
+<span class="font-headline uppercase text-sm tracking-widest text-on-surface-variant">Attrezzatura Pro</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-32 px-6 bg-surface-container-lowest" id="servizi">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<h2 class="font-headline font-black text-5xl md:text-8xl uppercase tracking-tighter">
+                        I NOSTRI <span class="text-stroke">SERVIZI</span>
+</h2>
+<p class="font-body text-on-surface-variant max-w-xs text-right uppercase tracking-widest text-xs">
+                        Protocolli d'elite sviluppati per chi non accetta la mediocrità.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-1">
+<!-- Service 1 -->
+<div class="group relative bg-surface-container-low hover:bg-surface-container-high transition-colors p-10 min-h-[500px] flex flex-col justify-between overflow-hidden">
+<div class="z-10">
+<span class="material-symbols-outlined text-primary-dim text-5xl mb-6" data-icon="fitness_center">fitness_center</span>
+<h3 class="font-headline font-bold text-4xl uppercase tracking-tighter mb-4">Personal<br/>Training</h3>
+<p class="font-body text-on-surface-variant">Programmazione individualizzata basata su analisi biomeccanica e test di forza massimale.</p>
+</div>
+<div class="z-10 pt-10">
+<ul class="space-y-2 font-headline uppercase text-xs tracking-widest text-on-surface-variant mb-8">
+<li>• Analisi della Postura</li>
+<li>• Programmazione Periodizzata</li>
+<li>• Monitoraggio costante</li>
+</ul>
+<a class="inline-flex items-center gap-2 text-primary-dim font-headline font-bold uppercase tracking-tighter group-hover:translate-x-2 transition-transform" href="#">
+                                SCOPRI DI PIÙ <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<div class="absolute -right-10 -bottom-10 opacity-5 group-hover:opacity-10 transition-opacity">
+<span class="material-symbols-outlined text-[20rem]" data-icon="fitness_center">fitness_center</span>
+</div>
+</div>
+<!-- Service 2 -->
+<div class="group relative bg-surface-container-high hover:bg-surface-container-highest transition-colors p-10 min-h-[500px] flex flex-col justify-between overflow-hidden border-y md:border-y-0 md:border-x border-outline-variant/20">
+<div class="z-10">
+<span class="material-symbols-outlined text-primary-dim text-5xl mb-6" data-icon="nutrition">nutrition</span>
+<h3 class="font-headline font-bold text-4xl uppercase tracking-tighter mb-4">Nutrizione<br/>Ateltica</h3>
+<p class="font-body text-on-surface-variant">Ottimizzazione del carburante biologico. Piani alimentari mirati alla performance e alla composizione corporea.</p>
+</div>
+<div class="z-10 pt-10">
+<ul class="space-y-2 font-headline uppercase text-xs tracking-widest text-on-surface-variant mb-8">
+<li>• Integrazione Specifica</li>
+<li>• Macro-nutrienti Target</li>
+<li>• Bio-feedback</li>
+</ul>
+<a class="inline-flex items-center gap-2 text-primary-dim font-headline font-bold uppercase tracking-tighter group-hover:translate-x-2 transition-transform" href="#">
+                                SCOPRI DI PIÙ <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<div class="absolute -right-10 -bottom-10 opacity-5 group-hover:opacity-10 transition-opacity">
+<span class="material-symbols-outlined text-[20rem]" data-icon="nutrition">nutrition</span>
+</div>
+</div>
+<!-- Service 3 -->
+<div class="group relative bg-surface-container-low hover:bg-surface-container-high transition-colors p-10 min-h-[500px] flex flex-col justify-between overflow-hidden">
+<div class="z-10">
+<span class="material-symbols-outlined text-primary-dim text-5xl mb-6" data-icon="rebase_edit">rebase_edit</span>
+<h3 class="font-headline font-bold text-4xl uppercase tracking-tighter mb-4">Recupero<br/>Attivo</h3>
+<p class="font-body text-on-surface-variant">Sistemi avanzati di rigenerazione muscolare e neurale per tornare in campo più velocemente.</p>
+</div>
+<div class="z-10 pt-10">
+<ul class="space-y-2 font-headline uppercase text-xs tracking-widest text-on-surface-variant mb-8">
+<li>• Mobility Flow</li>
+<li>• Tecniche di Respirazione</li>
+<li>• Prehab Infortuni</li>
+</ul>
+<a class="inline-flex items-center gap-2 text-primary-dim font-headline font-bold uppercase tracking-tighter group-hover:translate-x-2 transition-transform" href="#">
+                                SCOPRI DI PIÙ <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<div class="absolute -right-10 -bottom-10 opacity-5 group-hover:opacity-10 transition-opacity">
+<span class="material-symbols-outlined text-[20rem]" data-icon="rebase_edit">rebase_edit</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Bio Section -->
+<section class="py-32 px-6" id="bio">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 items-center">
+<div class="w-full md:w-1/2 relative">
+<div class="absolute -top-10 -left-10 w-full h-full bg-primary-dim/10 z-0"></div>
+<img class="relative z-10 w-full h-[600px] object-cover grayscale brightness-75 border border-primary-dim/30" data-alt="portrait of a focused professional fitness coach with intense gaze in a moody dark background studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAul21liS35-iQGUNCCHJh8P-5DvheRHqQJgMpzhdotWlO2UxlsfHG5QDHA0M9zklqv8C18nZFd-yj6wOF9SSie-1UyhlrWFIxbW-IbiAXgGSNohPwZZNf7DmVC266BqqEs5DsfwA7MozgPFMiAd0nAfzwuWF6NkcoF6uIME5ZV7oDQLN1AZ7G1zH1FNFW990h3qPe-UcBMblugEOf4STd0n3M_MbXbn3UTa01ziyKm5xUgYZ6AeeF3VFkKl3YcZLEnaHEuF6gbkozp"/>
+</div>
+<div class="w-full md:w-1/2">
+<span class="font-headline text-primary-dim font-bold uppercase tracking-widest mb-4 block">IL FONDATORE</span>
+<h2 class="font-headline font-black text-5xl md:text-7xl uppercase tracking-tighter mb-8 leading-none">
+                        MARCO <br/>VALENTINI
+                    </h2>
+<div class="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
+<p>Il mio obiettivo non è farti sudare, ma farti evolvere. Dopo dieci anni di esperienza nel powerlifting e nel coaching agonistico, ho fondato Velocity Lab per portare il metodo del professionismo a chiunque sia disposto a lavorare sodo.</p>
+<p class="border-l-4 border-primary-dim pl-6 italic">"La forza non è solo un numero sul bilanciere, è la disciplina che applichi ad ogni secondo della tua vita."</p>
+</div>
+<div class="mt-12 grid grid-cols-2 gap-8">
+<div>
+<span class="font-headline font-black text-4xl block">500+</span>
+<span class="font-headline uppercase text-xs tracking-widest text-on-surface-variant">Trasformazioni</span>
+</div>
+<div>
+<span class="font-headline font-black text-4xl block">12 ANNI</span>
+<span class="font-headline uppercase text-xs tracking-widest text-on-surface-variant">Di Esperienza</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-32 px-6 bg-surface-container-low border-y border-outline-variant/10" id="contatto">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+<div>
+<h2 class="font-headline font-black text-5xl md:text-7xl uppercase tracking-tighter mb-8">
+                            ENTRA NEL <br/><span class="text-primary-dim">LAB</span>
+</h2>
+<p class="font-body text-on-surface-variant text-xl mb-12">Sei pronto a superare i tuoi limiti? Prenota la tua prima sessione di valutazione gratuita.</p>
+<div class="space-y-8">
+<div class="flex items-center gap-6">
+<div class="bg-primary-dim p-4">
+<span class="material-symbols-outlined text-black text-3xl" data-icon="location_on">location_on</span>
+</div>
+<div>
+<h4 class="font-headline font-bold uppercase tracking-widest text-xs text-primary-dim">DOVE SIAMO</h4>
+<p class="font-headline font-bold text-xl uppercase">Via dell'Industria 42, Milano</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="bg-primary-dim p-4">
+<span class="material-symbols-outlined text-black text-3xl" data-icon="mail">mail</span>
+</div>
+<div>
+<h4 class="font-headline font-bold uppercase tracking-widest text-xs text-primary-dim">EMAIL</h4>
+<p class="font-headline font-bold text-xl uppercase">INFO@VELOCITYLAB.IT</p>
+</div>
+</div>
+</div>
+<div class="mt-16 flex gap-6">
+<a class="w-12 h-12 bg-surface-container-highest flex items-center justify-center hover:bg-primary-dim transition-colors" href="#">
+<span class="material-symbols-outlined text-white" data-icon="public">public</span>
+</a>
+<a class="w-12 h-12 bg-surface-container-highest flex items-center justify-center hover:bg-primary-dim transition-colors" href="#">
+<span class="material-symbols-outlined text-white" data-icon="groups">groups</span>
+</a>
+</div>
+</div>
+<div class="bg-surface-container-highest p-10 brutal-shadow">
+<form class="space-y-6">
+<div>
+<label class="font-headline uppercase text-xs tracking-widest text-on-surface-variant block mb-2">NOME COMPLETO</label>
+<input class="w-full bg-surface-container-low border-b-2 border-primary-dim border-t-0 border-x-0 focus:ring-0 focus:border-white transition-colors text-white py-4 px-0 font-headline font-bold text-xl placeholder:text-zinc-700" placeholder="ES. MARCO ROSSI" type="text"/>
+</div>
+<div>
+<label class="font-headline uppercase text-xs tracking-widest text-on-surface-variant block mb-2">EMAIL</label>
+<input class="w-full bg-surface-container-low border-b-2 border-primary-dim border-t-0 border-x-0 focus:ring-0 focus:border-white transition-colors text-white py-4 px-0 font-headline font-bold text-xl placeholder:text-zinc-700" placeholder="ES. MARCO@EMAIL.IT" type="email"/>
+</div>
+<div>
+<label class="font-headline uppercase text-xs tracking-widest text-on-surface-variant block mb-2">MESSAGGIO</label>
+<textarea class="w-full bg-surface-container-low border-b-2 border-primary-dim border-t-0 border-x-0 focus:ring-0 focus:border-white transition-colors text-white py-4 px-0 font-headline font-bold text-xl placeholder:text-zinc-700" placeholder="COME POSSIAMO AIUTARTI?" rows="3"></textarea>
+</div>
+<button class="w-full bg-primary-dim text-on-primary-fixed py-6 font-headline font-black text-2xl uppercase tracking-tighter hover:bg-red-600 transition-colors active:scale-[0.98]">
+                                INVIA RICHIESTA
+                            </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-6 flex flex-col md:flex-row justify-between items-center gap-8 border-t border-zinc-900 bg-black">
+<div class="flex flex-col items-center md:items-start gap-2">
+<div class="text-lg font-black text-white font-headline">VELOCITY PERFORMANCE LAB</div>
+<p class="font-['Space_Grotesk'] text-xs tracking-widest text-zinc-600">© 2024 VELOCITY PERFORMANCE LAB. SENZA COMPROMESSI.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-['Space_Grotesk'] text-xs tracking-widest text-zinc-600 hover:text-red-500 underline decoration-2 transition-colors" href="#">PRIVACY</a>
+<a class="font-['Space_Grotesk'] text-xs tracking-widest text-zinc-600 hover:text-red-500 underline decoration-2 transition-colors" href="#">TERMINI</a>
+<a class="font-['Space_Grotesk'] text-xs tracking-widest text-zinc-600 hover:text-red-500 underline decoration-2 transition-colors" href="#">COOKIES</a>
+</div>
+</footer>
+</body></html>
