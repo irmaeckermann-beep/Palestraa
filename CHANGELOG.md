@@ -4,6 +4,7 @@ Alle wesentlichen Änderungen an www.tonifit.it werden hier dokumentiert (neuest
 
 ## 2026-10-07
 
+- **Hero-Video getrimmt**: erste 5 Sekunden (Decke) entfernt — startet jetzt direkt mit dem Saal und dem Tonifit-Palestra-Schriftzug
 - **Hero-Video in HD**: Neu-Encoding in voller 1080p-Qualität (WebM 13 MB + MP4 17 MB statt 720p/4 MB) — nicht mehr verpixelt
 - **Hero-Feinschliff**: Video sichtbarer (75% statt 50%), Überschrift kompakter, Textschatten für Lesbarkeit — die Schrift verdeckt das Video nicht mehr
 - **Hero-Video**: 28-Sekunden-Drohnenflug durchs Studio als Hintergrund (stumm, Loop, 4 MB weboptimiert, Foto als Fallback/Standbild)
