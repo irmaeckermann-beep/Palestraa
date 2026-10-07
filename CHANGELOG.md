@@ -4,6 +4,8 @@ Alle wesentlichen Änderungen an www.tonifit.it werden hier dokumentiert (neuest
 
 ## 2026-10-07
 
+- **Fix**: Hero-Überschrift wird auf keiner Bildschirmbreite mehr abgeschnitten (fluide Größe mit Obergrenze)
+- **Changelog** eingeführt
 - **Hero-Foto**: echtes Foto der Sala mit "Tonifit Palestra"-Schriftzug (in Farbe) als Hintergrund
 - **Mobile-Fix**: Hero-Überschrift skaliert jetzt mit der Bildschirmbreite (wurde vorher abgeschnitten); "Team"-Link in Navigation und Handy-Menü ergänzt
 - **Echte Fotos eingebaut** (ersetzen Unsplash-Platzhalter): Tony als "Il Fondatore", neue Sektion **"Il Team"** mit 3 Trainer-Porträts, Trainingsfoto im Hero; alle Bilder fürs Web komprimiert (gesamt ~1 MB statt 160 MB)
