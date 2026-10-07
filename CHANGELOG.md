@@ -4,6 +4,13 @@ Alle wesentlichen Änderungen an www.tonifit.it werden hier dokumentiert (neuest
 
 ## 2026-10-07
 
+- **Marktanalyse umgesetzt (Ziel: Neukunden)** — echte Studio-Daten recherchiert (Google Maps, Facebook, Instagram) und integriert:
+  - **Telefon** 0831 366662 (klickbar), **Öffnungszeiten** (Lun–Ven 8–22, Sab 9–13, Dom chiuso), **Google-Maps-Karte** in der Kontakt-Sektion
+  - **Social Proof**: ★ 4,9 bei 111 Google-Rezensionen (Hero-Karte + Kontakt, verlinkt), echte Instagram-/Facebook-Links (@tonifitpalestra)
+  - **Vertrauen**: 30+ Jahre Erfahrung, Giudice IFBB (Bio), 100% Panatta-Ausstattung
+  - **Kontaktformular funktionsfähig** (FormSubmit an info@tonifit.it; Aktivierung folgt sobald Mailbox existiert) + Danke-Seite (grazie.html)
+  - **SEO**: Meta-Description, Open-Graph-Tags, Favicon, Canonical, JSON-LD LocalBusiness (Name, Adresse, Telefon, Öffnungszeiten, Geo) für Google-Suche
+  - **Datenschutz**: Privacy-Seite (privacy.html, GDPR) + Footer-Links korrigiert
 - **Fix**: Hero-Überschrift wird auf keiner Bildschirmbreite mehr abgeschnitten (fluide Größe mit Obergrenze)
 - **Changelog** eingeführt
 - **Hero-Foto**: echtes Foto der Sala mit "Tonifit Palestra"-Schriftzug (in Farbe) als Hintergrund
