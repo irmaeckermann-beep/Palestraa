@@ -4,6 +4,7 @@ Alle wesentlichen Änderungen an www.tonifit.it werden hier dokumentiert (neuest
 
 ## 2026-10-07
 
+- **Hero-Feinschliff**: Video sichtbarer (75% statt 50%), Überschrift kompakter, Textschatten für Lesbarkeit — die Schrift verdeckt das Video nicht mehr
 - **Hero-Video**: 28-Sekunden-Drohnenflug durchs Studio als Hintergrund (stumm, Loop, 4 MB weboptimiert, Foto als Fallback/Standbild)
 - **Marktanalyse umgesetzt (Ziel: Neukunden)** — echte Studio-Daten recherchiert (Google Maps, Facebook, Instagram) und integriert:
   - **Telefon** 0831 366662 (klickbar), **Öffnungszeiten** (Lun–Ven 8–22, Sab 9–13, Dom chiuso), **Google-Maps-Karte** in der Kontakt-Sektion
