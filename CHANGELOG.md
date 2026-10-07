@@ -4,6 +4,7 @@ Alle wesentlichen Änderungen an www.tonifit.it werden hier dokumentiert (neuest
 
 ## 2026-10-07
 
+- **Hero-Video in HD**: Neu-Encoding in voller 1080p-Qualität (WebM 13 MB + MP4 17 MB statt 720p/4 MB) — nicht mehr verpixelt
 - **Hero-Feinschliff**: Video sichtbarer (75% statt 50%), Überschrift kompakter, Textschatten für Lesbarkeit — die Schrift verdeckt das Video nicht mehr
 - **Hero-Video**: 28-Sekunden-Drohnenflug durchs Studio als Hintergrund (stumm, Loop, 4 MB weboptimiert, Foto als Fallback/Standbild)
 - **Marktanalyse umgesetzt (Ziel: Neukunden)** — echte Studio-Daten recherchiert (Google Maps, Facebook, Instagram) und integriert:
