@@ -4,6 +4,7 @@ Alle wesentlichen Änderungen an www.tonifit.it werden hier dokumentiert (neuest
 
 ## 2026-10-07
 
+- **Hero-Video**: 28-Sekunden-Drohnenflug durchs Studio als Hintergrund (stumm, Loop, 4 MB weboptimiert, Foto als Fallback/Standbild)
 - **Marktanalyse umgesetzt (Ziel: Neukunden)** — echte Studio-Daten recherchiert (Google Maps, Facebook, Instagram) und integriert:
   - **Telefon** 0831 366662 (klickbar), **Öffnungszeiten** (Lun–Ven 8–22, Sab 9–13, Dom chiuso), **Google-Maps-Karte** in der Kontakt-Sektion
   - **Social Proof**: ★ 4,9 bei 111 Google-Rezensionen (Hero-Karte + Kontakt, verlinkt), echte Instagram-/Facebook-Links (@tonifitpalestra)
